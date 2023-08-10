@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.width100vw{
+    width: 100%;
+}
+
+.topbar{
+    position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+
+}
+
+.sidebar{
+    
+    background-color:#f8f9fa;
+    position: static;
+    top: 0%;
+
+}
+.sidebar ul li{
+    list-style: none;
+    
+}
+.sidebar ul li a{
+    text-decoration: none;
+
+
+}
+
+.leftbar{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 60px;
+}
+table tbody tr td,
+table tbody tr th{
+    display: flex;
+    align-items: center !important;
+
+}
+
+.showProduct .img{
+    width: 300px;
+    margin: 20px auto;
+
+}
+.showProduct {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form div label{
+    font-weight: bold;
+    color: peru;
+} 
+form{
+    margin-top: 50px;
+}

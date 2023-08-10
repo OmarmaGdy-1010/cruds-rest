@@ -10,7 +10,7 @@ import '../App.css';
 import axios from 'axios';
 
 function All() {
-  const URL_Products = "https://omarmagdy-1010.github.io/api/products.json";
+  const URL_Products = "https://omarmagdy-10110.github.io/api/products.json";
   const [ data, setData ] = useState([]);
   useEffect(() => {
     fetch_API()
